@@ -6,6 +6,9 @@ MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWS.SOAP", "CalculadoraWS.SOAP\CalculadoraWS.SOAP.csproj", "{04DD9554-A020-48D9-AFCD-72E6A8C996CD}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWS.Cliente", "CalculadoraWS.Cliente\CalculadoraWS.Cliente.csproj", "{2FF9CFEE-FE2F-48DE-8339-6A6DB3C78C7F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{04DD9554-A020-48D9-AFCD-72E6A8C996CD} = {04DD9554-A020-48D9-AFCD-72E6A8C996CD}
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
