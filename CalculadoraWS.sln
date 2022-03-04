@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32002.261
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraWS.SOAP", "CalculadoraWS.SOAP\CalculadoraWS.SOAP.csproj", "{04DD9554-A020-48D9-AFCD-72E6A8C996CD}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{04DD9554-A020-48D9-AFCD-72E6A8C996CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{04DD9554-A020-48D9-AFCD-72E6A8C996CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{04DD9554-A020-48D9-AFCD-72E6A8C996CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{04DD9554-A020-48D9-AFCD-72E6A8C996CD}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {401F1EB1-BD7B-4D5C-A9B7-1E4909DD5224}
+	EndGlobalSection
+EndGlobal
