@@ -16,5 +16,18 @@ namespace CalculadoraWS.Cliente
         {
             InitializeComponent();
         }
+
+        private void Form1_Load(object sender, EventArgs e)
+        {
+           
+
+        }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            HomeServiceReference.HomeServiceSoapClient
+               ws = new HomeServiceReference.HomeServiceSoapClient();
+            MessageBox.Show(ws.HelloWorld());
+        }
     }
 }
